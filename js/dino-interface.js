@@ -10,6 +10,7 @@ $(document).ready(function() {
     var dinoQuery = new Dino();
     var paragraphs = $("#paragraphs").val();
     var words = parseInt($("#words").val());
-    dinoQuery.getDinos(paragraphs, words, dinoWords);
+    var format = $("#format").val();
+    dinoQuery.getDinos(paragraphs, words, format, dinoWords);
   });
 });
