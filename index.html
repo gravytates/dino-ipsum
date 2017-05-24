@@ -2,13 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="build/css/styles.css">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="build/js/app.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title></title>
+    <title>Dino Index</title>
   </head>
   <body>
+    <div class = "container">
+      <div class="jumbotron">
+        <h2> Dino IPSUM!!!</h2>
+      </div>
+      <form id="dino-form">
+        <label for="paragraphs">How many paragraphs would you like?</label>
+        <input type="text" id="paragraphs">
+        <br>
+        <label for="words">How many words per paragraph?</label>
+        <input type="number" id="words">
+        <br>
+        <!-- <select>
+          <option>HTML</option>
+
+
+        </select> -->
+        <button type="submit" class="btn-default">Create Dinos!</button>
+      </form>
+      <div class="showDinos">
+
+      </div>
+   </div>
   </body>
 </html>
-
